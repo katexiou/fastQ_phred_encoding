@@ -17,6 +17,7 @@ This repository contains scripts to generate 10 random FASTQ files, where each f
 `./generate_fastq.sh`.
 
 **If permission is denied then run first the command `chmod +x generate_fastq.sh` and after `./generate_fastq.sh`**.
+
 3. Detect and Classify Phred Encoding
 - To detect the Phred encoding of the generated FASTQ files and classify them into the appropriate folders phred33 and phred64, run:
 `./detect_phred.sh`.
