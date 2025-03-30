@@ -1,6 +1,6 @@
 # Classification of FASTQ files based on Phred encoding
 
-This repository contains scripts to generate 10 random FASTQ files, where each file has a randomly assigned Phred+33 or Phred+64 encoding. The generated FASTQ files are classified and moved into two separate directories based on their encoding format.
+This repository contains two scripts to generate 10 random FASTQ files, where each file has a randomly assigned Phred+33 or Phred+64 encoding. The generated FASTQ files are classified and moved into two separate directories based on their encoding format.
 
 ## Files in the Repository
 1. `generate_fastq.sh`: A script that generates 10 mock FASTQ files with random sequences and quality scores, which are randomly assigned with Phred+33 or Phred+64 encoding.
